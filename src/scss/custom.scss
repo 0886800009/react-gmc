@@ -1,0 +1,54 @@
+.MuiCalendarPicker-root {
+  .css-rjgel3 {
+    white-space: nowrap;
+  }
+}
+
+.MuiPaginationItem-root {
+  &.Mui-selected {
+    pointer-events: none;
+    cursor: default;
+  }
+}
+
+.MuiTableCell-body {
+  padding: 6px !important;
+}
+
+.MuiTableCell-head {
+  padding: 6px 20px 6px 6px !important;
+}
+
+.MuiTabPanel-root {
+  padding: 0 !important;
+}
+
+.MuiAccordion-root {
+  box-shadow: none !important;
+  margin: 0 !important;
+  &::before {
+    content: none !important;
+  }
+  .MuiAccordionSummary-root {
+    padding: 5px 0 !important;
+    justify-content: flex-start !important;
+    margin: 0 !important;
+    min-height: auto !important;
+    .MuiAccordionSummary-content {
+      margin: 0 !important;
+      flex-grow: 0 !important;
+    }
+    .MuiAccordionSummary-expandIconWrapper {
+      margin-left: 10px !important; 
+    }
+  }
+  .MuiAccordionDetails-root {
+    padding: 0 !important;
+  }
+}
+
+.table-basic {
+  .MuiInput-root {
+    font-size: 0.875rem !important;
+  }
+}
